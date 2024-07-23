@@ -2,6 +2,7 @@
 import './App.css';
 import React, {useRef} from 'react';
 import MM from './images/mm.jpg'; // Muscle Man image
+import House from './images/park-house.webp'; // Park House
 import mm1 from './sounds/mm1.mp3';
 
 
@@ -38,7 +39,7 @@ function App() {
         alt="button"
         className="image-button"
         onClick={handleClick}
-        style={{ width: "120px", height: "auto"}}
+        style={{ width: "120px", height: "auto", marginTop: "300px", border: "1px solid black"}}
       />
       <audio ref={audioRef} src={mm1} />
     </div>

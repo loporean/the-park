@@ -1,5 +1,13 @@
 .App {
   text-align: center;
+}
+
+body {
+  background: url('./images/park-house.webp') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.App img {
   cursor: pointer;
 }
 
@@ -15,7 +23,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
